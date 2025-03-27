@@ -276,42 +276,42 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 15
+    question: "3. Fire: Water; Wood: ______", // Question 15
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. Tree", correct: false},
+      { text: "b. Axe", correct: true}, // Correct Answer
+      { text: "c. Fire", correct: true},
+      { text: "d. Water", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 16
+    question: "4. Journalism: News; ______ : ______", // Question 16
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. Engineering : Structures", correct: true}, // Correct Answer
+      { text: "b. Mathematics : Equations", correct: false},
+      { text: "c. Pencils : Books", correct: false},
+      { text: "d. Poets : Laureates", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 17
+    question: "5. Foliceman: Crime ; ______ : ______", // Question 17
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. Broom : Dust", correct: false},
+      { text: "b. Fireman : Rescue", correct: true}, // Correct Answer
+      { text: "c. Soap : Skin", correct: false},
+      { text: "d. Write", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 18
+    question: "6. Madrid: Spain; ______ : ______", // Question 18
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. New York : U.SA", correct: false},
+      { text: "b. Phnom penh : Cambodia", correct: true}, // Correct Answer
+      { text: "c. Almaty : Kazakhstan", correct: false},
+      { text: "d. Sydnet : Australia", correct: false},
     ]
   },
   {
