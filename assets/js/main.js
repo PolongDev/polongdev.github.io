@@ -275,6 +275,96 @@ const questions = [
     ]
   },
   {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
+    image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    answers: [
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
+    ]
+  },
+  {
     image: "<img src='assets/images/quiz/q10-greece.png' alt='White and blue buildings on a island'>",
     question: "3. Fire: Water; Wood: ______", // Question 15
     answers: [
