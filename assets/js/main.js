@@ -276,7 +276,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 15
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -286,7 +286,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 16
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -296,7 +296,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 17
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -306,7 +306,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 18
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -316,7 +316,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 19
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -326,7 +326,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 20
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -336,7 +336,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 21
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -346,7 +346,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 22
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -356,7 +356,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 14
+    question: "2. Music: Emotions; Pictures: ______", // Question 23
     answers: [
       { text: "a. Sadness", correct: false},
       { text: "b. Mysteries", correct: false},
@@ -366,7 +366,7 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q10-greece.png' alt='White and blue buildings on a island'>",
-    question: "3. Fire: Water; Wood: ______", // Question 15
+    question: "3. Fire: Water; Wood: ______", // Question 24
     answers: [
       { text: "a. Tree", correct: false},
       { text: "b. Axe", correct: true}, // Correct Answer
