@@ -316,62 +316,62 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 19
+    question: "1. In a solution the substance that does the dissolving is called ________?", // Question 19
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. Solubility", correct: false},
+      { text: "b. Solute", correct: false},
+      { text: "c. Solvent", correct: true}, // Correct Answer
+      { text: "d. Ion", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 20
+    question: "2. A hydrocarbon that contains one or more double bonds is classified as an ______?", // Question 20
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. Alkynes", correct: false},
+      { text: "b. Alkenes", correct: true}, // Correct Answer
+      { text: "c. Aromatic", correct: false},
+      { text: "d. Alkanes", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 21
+    question: "3. In a plant, what part stores sugars as starch?", // Question 21
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. Leaves", correct: false},
+      { text: "b. Roots", correct: false},
+      { text: "c. Seeds", correct: false},
+      { text: "d. Stem", correct: true}, // Correct Answer
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 22
+    question: "4. Protoplasts are cells without ______?", // Question 22
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. Nucleus", correct: false},
+      { text: "b. Cell membrane", correct: false},
+      { text: "c. Cell wall", correct: true}, // Correct Answer
+      { text: "d. Cytoplasm", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "2. Music: Emotions; Pictures: ______", // Question 23
+    question: "5. Which type of plate tectonic boundaries creates rift valley?", // Question 23
     answers: [
-      { text: "a. Sadness", correct: false},
-      { text: "b. Mysteries", correct: false},
-      { text: "c. Memories", correct: true}, // Correct Answer
-      { text: "d. Creativity", correct: false},
+      { text: "a. Divergent", correct: false},
+      { text: "b. Convergent", correct: true}, // Correct Answer
+      { text: "c. Transform", correct: false},
+      { text: "d. None of the above", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q10-greece.png' alt='White and blue buildings on a island'>",
-    question: "3. Fire: Water; Wood: ______", // Question 24
+    question: "6. Which of the following is the reason why tire explode during summer season.", // Question 24
     answers: [
-      { text: "a. Tree", correct: false},
-      { text: "b. Axe", correct: true}, // Correct Answer
-      { text: "c. Fire", correct: false},
-      { text: "d. Water", correct: false},
+      { text: "a. The pressure increase and the volume decrease", correct: false},
+      { text: "b. the temperature increase and the volume also increase", correct: true}, // Correct Answer
+      { text: "c. the volume increase and the pressure also decreased", correct: false},
+      { text: "d. the volume decrease and the temperature increase", correct: false},
     ]
   }
 ];
