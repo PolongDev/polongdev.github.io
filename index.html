@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Mini Game Online With 10 Questions About Geography">
+    <meta name="keywords" content="Geography guesser, Geo, Mini, Game, Online, Highscore">
+    <meta name="author" content="Learnify">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="images/favi-icon" href="assets/images/favi-icon.png">
+
+    <title>Learnify</title>
+</head>
+
+<body>
+
+    <!-- 
+    ############################ MAIN PAGE - STARTS HERE #################################
+    -->
+    <main class="main-wrapper">
+        <header>
+            <div class="main-title">
+                <h1>LEARNIFY</h1>
+                <h2>QUIZ GAME</h2>
+            </div>
+        </header>
+
+        <section aria-label="main content">
+            <div class="main-section">
+                <h3>5 SUBJECT 30 QUESTIONS</h3>
+                <div class="button-group">
+                    <!-- main menu buttons -->
+                    <button aria-label="start quiz game" class="main-btn button-start" id="show-quiz"><i
+                            class="fa-solid fa-minus"></i> Start <i class="fa-solid fa-minus"></i></button>
+                    <!-- start quiz button -->
+                    <button aria-label="view current highscore" class="main-btn button-highScore" id="show-highscore"><i
+                            class="fa-solid fa-crown"></i>
+                        Highscore</button> <!-- open highscore page -->
+                    <button aria-label="view game rules" class="main-btn" id="show-btn"><i class="fa-solid fa-book"></i>
+                        Rules</button> <!-- open rule popup -->
+                    <div id="popup" class="hidden">
+                        <!-- popup window, showing rules -->
+                        <div class="rules-p">
+                            <h2 id="rules-heading" class="title-section">Rules</h2>
+                            <p id="rules-description">These are the rules for the quiz game:</p>
+                            <ol aria-labelledby="rules-heading" aria-describedby="rules-description">
+                                <li>You will have only <span>30 seconds</span> per each question.</li>
+                                <li>Once you select your answer, it can't be undone.</li>
+                                <li>You can't select any option once time goes off.</li>
+                                <li>Pressing the exit button will quit and reset the quiz.</li>
+                                <li>You'll get points when having correct answers.</li>
+                            </ol>
+                        </div>
+                        <button aria-label="return back to main menu" class="return-btn">Return</button>
+                        <!-- back to main menu -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- 
+    ############################# MAIN PAGE - ENDS HERE ##################################
+    -->
+
+
+    <!-- 
+    ############################ GAME PAGE - STARTS HERE #################################
+    -->
+    <div id="quiz-wrapper" class="quiz-wrapper hidden">
+        <section aria-label="quiz game content">
+            <div class="quiz-section">
+                <div><a aria-label="quit game" href="index.html"><i
+                            class="fa-sharp fa-solid fa-right-from-bracket fa-2xl" style="color: #303030;"></i></a>
+                </div>
+                <h2 class="title-section">QUIZ</h2>
+                <div class="quiz">
+                    <div class="quiz-image" id="quiz-image"></div> <!-- game picture -->
+                    <h2 id="question">Question</h2> <!-- game question -->
+                    <div id="answer-buttons">
+                        <!-- game answer buttons -->
+                        <button aria-label="alternative answer 1" class="quiz-btn">Answer 1</button>
+                        <button aria-label="alternative answer 2" class="quiz-btn">Answer 2</button>
+                        <button aria-label="alternative answer 3" class="quiz-btn">Answer 3</button>
+                        <button aria-label="alternative answer 4" class="quiz-btn">Answer 4</button>
+                    </div>
+
+                    <div class="calc-section">
+                        <h2 id="question-counter">Question counter</h2> <!-- question counter -->
+                        <div class="timer">
+                            <div class="time-text">
+                                <!-- time left of each question counter -->
+                                <h2>Time Left</h2>
+                            </div>
+                            <div class="timer-sec">15</div>
+                        </div>
+                    </div>
+                    <form id="nameForm" class="nameForm">
+                        <!-- Enter user input form -->
+                        <label class="large-label" for="nameInput">
+                            Enter your username
+                            <input aria-label="enter your username" type="text" id="nameInput" name="username"
+                                autocomplete="username" required>
+                        </label>
+                        <button aria-label="add username to scoreboard" type="submit"
+                            class="return-btn">Add</button>
+                        <p id="add-username"></p>
+                    </form>
+                    <button aria-label="next question" id="next-btn">Next</button>
+                    <!-- moving to next question button -->
+                    <button aria-label="return to main menu" id="back-btn">Return to Main</button>
+                    <!-- return back to main menu from game page -->
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- 
+    ############################# GAME PAGE - ENDS HERE ##################################
+    -->
+
+    <!-- 
+    ######################### SCORE DASHBOARD - STARTS HERE ##############################
+    -->
+    <div id="scoreboard-wrapper" class="scoreboard-wrapper hidden">
+        <section aria-label="scoreboard dashboard">
+            <div class="scoreboard-section">
+                <div class="scoreboard-content">
+                    <h2 class="title-section">Highscore</h2>
+                    <h2>
+                        <i class="fa-solid fa-crown"></i>
+                        Players
+                        <i class="fa-solid fa-crown"></i>
+                    </h2>
+                    <ul id="nameList"></ul> <!-- Displaying all usernames that have been entered -->
+                    <a href="index.html" class="returnn-btn">Return</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- 
+    ########################## SCORE DASHBOARD - ENDS HERE ###############################
+    -->
+
+    <script src="https://kit.fontawesome.com/66c113ad0a.js" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Nunito:wght@300&family=Roboto&display=swap');
+
+/* Thank you "Ollie Williams" at codepen.io for tipsing about a cool text style */
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+/* ******************************************************************* */
+
+:root {
+  --clr-primary: hsl(215, 67%, 25%);
+  --clr-headers: hsl(73, 87%, 69%);
+  --clr-neutraldark: hsl(212, 23%, 46%);
+  --clr-contentBg: hsl(55, 48%, 78%);
+  --clr-neutral-white: hsl(0, 0%, 93%);
+  --clr-neutral-black: hsl(0, 0%, 3%);
+  --clr-buttons-red: hsl(0, 79%, 72%);
+}
+
+/* Tips from this css reset https://andy-bell.co.uk/a-modern-css-reset/ */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+/* ******************************************************************* */
+
+html {
+  height: 100%;
+}
+
+/* Set core body defaults */
+body {
+  background-image: url('../images/bg-geomasterdmind1980×1080.png');
+  background-color: var(--clr-primary);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 100%;
+  /* Scale image to 100% of container width */
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  min-height: 50vh;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 4rem;
+  color: var(--clr-neutral-white);
+}
+
+h2, 
+h4,
+.large-label {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', 'Roboto', sans-serif;
+}
+
+h3,
+h5 {
+  font-family: 'Nunito', 'Roboto', sans-serif;
+  color: var(--clr-neutral-white);
+}
+
+
+/* **************** MAIN WRAPPER STARTS HERE **************** */
+.main-wrapper {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-section {
+  margin: auto;
+  width: 100%;
+}
+
+.main-title {
+  font-weight: bold;
+  margin: 2rem auto;
+}
+
+.main-title h2 {
+  color: var(--clr-headers);
+  font-size: 2.5rem;
+}
+
+/* Main Button */
+.button-group .main-btn {
+  background-color: var(--clr-contentBg);
+  color: rgb(19, 131, 19);
+  font-size: 1.438rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 32px;
+  margin: 1rem auto;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 15rem;
+  height: 4rem;
+  display: block;
+}
+
+.button-group .main-btn:not(:last-child) {
+  border-bottom: none;
+}
+
+.button-group .main-btn:hover {
+  background-color: #d3d043;
+}
+
+/* Hidden */
+.hidden {
+  display: none;
+}
+
+/* Popup */
+#popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--clr-contentBg);
+  width: 600px;
+  padding: 20px;
+  border: 1px solid var(--clr-neutral-black);
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.return-btn,
+.returnn-btn {
+  background-color: var(--clr-buttons-red);
+  color: var(--clr-neutral-black);
+  font-weight: 800;
+  width: 150px;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.returnn-btn {
+  display: block;
+  padding: 7px;
+}
+.return-btn:hover,
+.returnn-btn:hover,
+#next-btn:hover,
+#back-btn:hover {
+  background-color: hsl(0, 84%, 66%);
+}
+
+.button-group ol li {
+  color: var(--clr-neutral-black);
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px 45px;
+  list-style-type: square;
+  text-align: left;
+}
+
+.button-group span {
+  font-size: 1.3rem;
+  color: rgb(69, 191, 196);
+}
+
+/* Title Section */
+.title-section {
+  font-family: 'Rocher';
+  text-align: center;
+  font-size: 3rem;
+}
+/* **************** MAIN WRAPPER ENDS HERE **************** */
+
+
+/* **************** QUIZ WRAPPER STARTS HERE **************** */
+.quiz-section,
+.scoreboard-section {
+  background: var(--clr-contentBg);
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.quiz-section h1 {
+  font-size: 25px;
+  color: var(--clr-neutral-black);
+  font-weight: 600;
+  border-bottom: 1px solid var(--clr-neutral-black);
+  padding-bottom: 30px;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 18px;
+}
+
+.quiz-btn {
+  background: var(--clr-neutral-white);
+  color: var(--clr-neutral-black);
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid var(--clr-neutral-black);
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.quiz-btn:hover:not([disabled]) {
+  background: var(--clr-neutral-black);
+  color: var(--clr-neutral-white);
+}
+
+.quiz-btn:disabled {
+  cursor: no-drop;
+}
+
+#next-btn,
+#back-btn {
+  background-color: var(--clr-buttons-red);
+  color: var(--clr-neutral-black);
+  font-weight: 800;
+  width: 150px;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background-color: hsl(120, 36%, 70%);
+}
+
+.incorrect {
+  background-color: hsl(0, 66%, 71%);
+}
+
+#question {
+  text-align: center;
+}
+
+.quiz-image {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.calc-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.timer {
+  background: #c1bd93;
+  color: hsl(0, 0%, 3%);
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 5px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.timer-sec {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-submit {
+  background-color: var(--clr-buttons-red);
+  color: var(--clr-neutral-black);
+  font-weight: 800;
+  width: 150px;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#add-username {
+  color: var(--clr-neutral-black);
+  font-weight: 800;
+}
+
+/* **************** QUIZ WRAPPER ENDS HERE **************** */
+
+
+/* **************** SCOREBOARD WRAPPER STARTS HERE **************** */
+#scoreboard-wrapper {
+  text-align: center;
+  
+}
+
+#highScoresList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+.high-score {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.high-score:hover {
+  transform: scale(1.025);
+}
+/* **************** SCOREBOARD WRAPPER ENDS **************** */
+
+
+/* **************** ERROR WRAPPER STARTS HERE **************** */
+#error-page {
+  background-image: url('../images/error-background.webp');
+  background-color: hsl(0deg 0% 37.65%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#error-wrapper {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: center;
+  justify-content: center;
+}
+
+#error-wrapper img {
+  max-width: 100%;
+}
+
+#error-wrapper h2 {
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
+#error-wrapper span {
+  color: hsl(52, 59%, 83%);
+}
+
+#error-wrapper p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: var(--clr-neutral-black);
+}
+
+#error-wrapper .error-p {
+  background-color: var(--clr-neutral-white);
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto 10px;
+}
+
+#error-wrapper a {
+  margin-top: 1rem;
+}
+/* **************** ERROR WRAPPER ENDS HERE **************** */
+
+
+/* **************** MOBILE RESPONSIVE STYLESHEET STARTS HERE **************** */
+@media (max-width: 30rem) /* 480px */ {
+  body {
+    background-image: url('../images/bg-geomastermind360×640.png');
+    background-size: auto 100%;
+    background-color: var(--clr-primary);
+    background-position: top;
+  }
+
+  .main-wrapper {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .main-title {
+    font-weight: bold;
+    margin: 1rem 0.5rem auto;
+  }
+
+  .button-group .main-btn {
+    background-color: var(--clr-contentBg);
+    color: hsl(120, 100%, 25%);
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 32px;
+    margin: 1rem auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 14rem;
+    height: 3rem;
+    display: block;
+  }
+
+  .main-section h3 {
+    font-size: 1rem;
+  }
+
+  .main-title h1 {
+    font-size: 8vw;
+  }
+}
+
+@media (max-width: 58.75rem) /* 940px */ {
+  body {
+    background-image: url('../images/bg-geomasterdtfmind1366×768.png');
+    background-size: auto 100%;
+    background-color: var(--clr-primary);
+    background-position: top;
+  }
+}
+
+@media only screen and (max-width: 37.5rem) /* 600px */ {
+  #popup {
+    width: 100%;
+  }
+
+  .button-group ol li {
+    color: var(--clr-neutral-black);
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin: 15px 15px;
+    list-style-type: square;
+  }
+
+  .button-group ol {
+    text-align: left;
+  }
+
+  .return-button {
+    background-color: var(--clr-buttons-red);
+    font-weight: bold;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .title-section {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 3rem;
+  }
+}
