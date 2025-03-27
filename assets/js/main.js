@@ -256,32 +256,32 @@ const questions = [
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
+    question: "1. Life: Death; Coagulate: ______", // Question 13
     answers: [
-      { text: "a. 64", correct: true}, // Correct Answer
-      { text: "b. 24", correct: false},
-      { text: "c. 16", correct: false},
-      { text: "d. 42", correct: false},
+      { text: "a. Celebrate", correct: false},
+      { text: "b. Dissolve", correct: true}, // Correct Answer
+      { text: "c. Destroy", correct: false},
+      { text: "d. Oppose", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q6-portugal.png' alt='Famous cave in Algarve cost'>",
-    question: "6. Given the x³ x = y³, what is y³ equal to if x=4?", // Question 6
+    question: "2. Music: Emotions; Pictures: ______", // Question 14
     answers: [
-      { text: "a. 64", correct: true}, // Correct Answer
-      { text: "b. 24", correct: false},
-      { text: "c. 16", correct: false},
-      { text: "d. 42", correct: false},
+      { text: "a. Sadness", correct: false},
+      { text: "b. Mysteries", correct: false},
+      { text: "c. Memories", correct: true}, // Correct Answer
+      { text: "d. Creativity", correct: false},
     ]
   },
   {
     image: "<img src='assets/images/quiz/q10-greece.png' alt='White and blue buildings on a island'>",
-    question: "1. Alexei had over the vast Siberian expanse more than once", // Question 7
+    question: "3. Fire: Water; Wood: ______", // Question 15
     answers: [
-      { text: "a. drove", correct: false},
-      { text: "b. drived", correct: false},
-      { text: "c. driven", correct: false},
-      { text: "d. been driving", correct: true}, // Correct Answer
+      { text: "a. Tree", correct: false},
+      { text: "b. Axe", correct: true}, // Correct Answer
+      { text: "c. Fire", correct: false},
+      { text: "d. Water", correct: false},
     ]
   }
 ];
